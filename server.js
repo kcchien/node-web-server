@@ -7,7 +7,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
-const listenPort = 3000;
+const listenPort = process.env.PORT || 3000;
 
 let app = express();
 
