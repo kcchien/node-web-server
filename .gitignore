@@ -49,6 +49,5 @@ jspm_packages
 .yarn-integrity
 
 server.log
-.gitignore
 .idea/
 
